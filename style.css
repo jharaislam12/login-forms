@@ -1,0 +1,264 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	
+}
+
+.full-form{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+.background{
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/1.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	height:100vh;
+}
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+.login-form{
+	
+	width:380px;
+    margin:0 auto;
+	padding:5% 0 0;
+	
+}
+ .login-form{
+	 position:relative;
+	 z-index:1;
+	 max-width:380px;
+	 padding:45px;
+	 background:#22222291;
+	 text-align:center;
+	 overflow:hidden;
+ }
+.login-header{
+	color:#fff;
+	overflow:hidden;
+}
+.login-text{}
+.login-text h3{
+	font-size:30px;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom:15px;
+}
+.login-link{
+	margin:20px 0 30px;
+	overflow:hidden;
+}
+.login-link a{
+	text-decoration:none;
+	color:#fff;
+	font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto',sans-serif;
+}
+.one{
+	float:left;
+	transition:all 0.3s ease;
+	}
+	.one:hover{
+		color:orange;
+	}
+.two{
+	float:right;
+	transition:all 0.3s ease;
+}
+.two:hover{
+		color:#4fcf4f;
+	}
+.login-text p{
+	font-size:16px;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom:15px;
+}
+
+.login-form input[type=text],input[type=password]{
+	font-family: 'Montserrat', sans-serif;
+	border:0;
+	margin:0 0 15px;
+	padding:15px;
+	width:100%;
+	background:#fff;
+	box-sizing:border-box;
+	outline:1;
+	font-size:14px;
+	border-radius:4px;
+}
+.login-form .label{
+	float:left;
+	color:#fff;
+	font-size: 1rem;
+	font-family:'Roboto', sans-serif;
+	font-weight:700;
+	line-height:2;
+}
+form input{
+	
+}
+.btm-link{
+	overflow:hidden;
+}
+.btm-link input[type=checkbox]{
+	float:left;
+	margin-right:5px;
+
+	
+	
+}
+.btm-link{
+	overflow:hidden;
+}
+.btm-link  .chec-lbl{
+	color:#fff;
+	float:left;
+	font-size:14px;
+	
+	font-family:'Montserrat', sans-serif;
+	font-weight:500;
+	margin-right:10px;
+}
+.btm-link a.fgtp{
+	color:#fff;
+	text-decoration:;
+	float:right;
+	margin-right:0;
+	margin-left:auto;
+	font-size:14px;
+	font-family:'Montserrat', sans-serif;
+	font-weight:500;
+}
+.login-form input[type=submit].log-submit{
+	width:100%;
+	border:0;
+	padding:15px;
+	background:green;
+	color:#fff;
+	outline:0;
+	font-size:14px;
+	text-transform:uppercase;
+	font-family:'Roboto',sans-serif;
+	border-radius:4px;
+	transition:all 300ms ease;
+}
+.login-form input[type=submit]:hover{
+	background:#4fcf4f;
+	color:;
+}
+
+
+/*CSS FOR FORGOT PASSWORD*/
+
+.bg{
+	position:relative;
+	background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+	height:100vh;
+	
+}
+
+.frgt-form{
+	position:absolute;
+	top:100px;
+	width:80%;
+	margin:0 auto 100px;
+    
+}
+.frgt-text{
+	position:relative;
+	
+	
+}
+.frgt-text h2{
+	font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight: 800;
+    line-height: 2;
+
+}
+	
+.frgt-text p{
+	font-size:20px;
+	font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+.forms{
+	margin-top:75px;
+}
+.forms label{
+	font-size:20px;
+	font-family: 'Montserrat', sans-serif;
+    color: #fff;
+	font-weight:700;
+	margin-right:4px;
+}
+.frgt-form .forms input[type=email]{
+	width:84%;
+	padding:20px;
+	box-sizing: border-box;
+	border:none;
+}
+.frgt-form .forms input[type=submit]{
+	padding:20px 30px;
+	background:#000;
+	color:#fff;
+	border:none;
+	transition:all 0.3s ease;
+}
+
+/*CSS FOR FORGOT PASSWORD*/
+.signup-form-wrap{}
+.bgs{
+	background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/3.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	height:100vh;
+}
+.signup-form{
+	margin:100px 0 0 0;
+}
+.signup-form h2{
+	font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight: 800;
+    line-height: 2;
+}
+.signup-form{}
+.signup-form{}
+.signup-form{}
+.signup-form{}
+.signup-form{}
+.signup-form{}
+.signup-form{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
